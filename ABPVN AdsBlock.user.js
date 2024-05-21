@@ -1,19 +1,3 @@
-From: <Saved by Blink>
-Snapshot-Content-Location: https://update.greasyfork.org/scripts/9099/ABPVN%20AdsBlock.user.js
-Subject: 
-Date: Sun, 19 May 2024 06:00:36 -0000
-MIME-Version: 1.0
-Content-Type: multipart/related;
-	type="text/html";
-	boundary="----MultipartBoundary--kl73tPFu9Kqa9h6ySYK8y4NJ4XvlzkadwqQfjDP5Un----"
-
-
-------MultipartBoundary--kl73tPFu9Kqa9h6ySYK8y4NJ4XvlzkadwqQfjDP5Un----
-Content-Type: text/html
-Content-ID: <frame-B551E65D2A027ADFF26BE5A6A61E916C@mhtml.blink>
-Content-Transfer-Encoding: quoted-printable
-Content-Location: https://update.greasyfork.org/scripts/9099/ABPVN%20AdsBlock.user.js
-
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"><style type=3D"text/css" id=3D"__via_blocker_css__">.sponsor_bar,=
 .CWReviewsProdInfoAd,.home_ad,.ws-ad,.ads-top,.col_adunit300x250,#ads-leade=
