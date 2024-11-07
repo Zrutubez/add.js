@@ -4,10 +4,10 @@
 // @version      1.5
 // @description  Speed up YouTube ads to play in 1 second, and ensure normal speed after ads, with a toggle button, targeting ads only.
 // @author       You
-// @match        https://www.youtube.com/*
+// @match        https://*/*
 // @grant        none
-// @downloadURL https://update.greasyfork.org/scripts/508046/Simple%20Youtube%20Ad-blocker%20%28Working%29.user.js
-// @updateURL https://update.greasyfork.org/scripts/508046/Simple%20Youtube%20Ad-blocker%20%28Working%29.meta.js
+// @downloadURL 
+// @updateURL 
 // ==/UserScript==
 
 (function() {
