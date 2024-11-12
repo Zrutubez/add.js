@@ -1,0 +1,232 @@
+@charset "utf-8";
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/*
+Name: Adblock.css 1.3
+Author: ELV1S and Adblock Team
+Description: http://code.google.com/p/adblock/
+Release Date: 2012/12/12
+
+*/
+
+[href*='/ad.'],
+[href*='/bn.'], [src*='/bn.'],
+[href*='/ban'],
+[href*='/ads'],
+[href*='/adv'],
+[href*='/counter'], [src*='/counter'],
+[href*='counter'],
+[href*='/count.'], [src*='/count.'],
+[href*='commerce'],
+[href*='purchase'],
+[href*='/redirect.'],
+[href*='/rich'],
+[href*='/traf'],
+[href*='/ref'],
+[href*='/clk'],
+[href*='click.'],
+[src*='click'],
+[href*='pay.asp'],
+[href*='?page='],
+[href*='partner='],
+[href*='li.ru/go?'],
+[src*='r.mail.ru/b'],
+[href*='yandex.ru/cy?'],
+[href*='r.mail.ru/n'],
+[href*='forex'],
+[src*='/ban/'] {
+	display: none !important
+}
+
+[name='Adrotator1'],
+[name='Ads'] {
+	display: none !important
+}
+
+[class=sponsors], 
+[class=sp_links], 
+[class=advertising], 
+[ID=sponsors], 
+[ID=ad], 
+[ID=inlinead], 
+[ID=ad_creative], 
+[ID=contextualLinks],
+[class*='AdBar'],
+[class*='ad_block'],
+[class*='advertising'],
+[class^='bnnr_bx_'] {
+	display: none !important
+}
+
+#player-ads,
+#masthead-ad,
+#sponsors,
+#topbanner,
+#ad_overlay, 
+#ad_footer,
+#Ads,
+#leaderboard,
+#top_adbn_div,
+#top-banner,
+#page_footer,
+#PopWin
+{
+	display: none !important
+}
+
+.ytp-pause-overlay,
+.text_adv,
+.top_ad1,
+.top-banner,
+.top_banner,
+.topBanner,
+.ad-showing,
+.adcolumn, 
+.video-ads,
+.ytp-ad-module,
+.ytp-ad-overlay-slot,
+.ytp-ad-overlay-close-button,
+.ytp-ad-player-overlay,
+.ytp-ad-player-overlay-instream-info,
+.ytp-ad-player-overlay-instream-info-renderer,
+.ytp-ad-player-overlay-instream-info-renderer-title,
+.ytp-ad-player-overlay-instream-info-renderer-actions
+{         
+	display: none !important
+}
+
+##a:link[href*="ad."] img,
+##a:link[href*="/ad."] img,
+##a:link[href*="/ads."] img,
+##a:link[href*="/adclick/"] img,
+##a:link[href*="?banner"] img,
+
+{ display: none ! important }
+
+##a:link[href*="ad.js"] ,
+{display: block ! important }
+
+##a[href^="play.google.com"]  {display: block ! important }
+
+##a[href^="pagead2.googlesyndication.com"] {display: block ! important }
+
+##a[href^="play.googleapis.com"] {display: block ! important }
+
+##a[href^="m.youtube.com/api/stats/watchtime"] {display: block ! important }
+
+##a[href^="googleads.g.doubleclick.net"] {display: block ! important }
+
+##a[href^="ads.youtube.com"]  {display: block ! important }
+
+##a[href^="ad.youtube.com"]   {display: block ! important }
+
+##a[href^="static.doubleclick.net/instream/ad_status.js"]  {display: block ! important }
+
+##a[href^="https://ad.doubleclick.net"]  {display: block ! important }
+
+##a[href^="m.youtube.com/pagead"]
+{display: block ! important }
+
+##a[href^="m.youtube.com/ads"]
+{display: block ! important }
+
+##a[href^="m.youtube.com/ad"]
+{display: block ! important }
+
+##a[href^="ssl.google-analytics.com"]
+{display: block ! important }
+
+##a[href^="www.youtube.com"]
+{display: block ! important }
+
+##a[href^="m.youtube.com/generate_204"]
+{display: block ! important }
+
+##a[href^="www.youtube.com/api"]
+{display: block ! important }
+
+##a[href^="www.google.com/js"]
+{display: block ! important }
+
+##a[href^="https://ad.doubleclick.net/"]
+{display: block ! important }
+
+##a[href^="https://adclick.g.doubleclick.net/"]
+{display: block ! important }
+
+##a[href^="https://pubads.g.doubleclick.net/"]
+{display: block ! important }
+
+##a[href^="https://www.googleadservices.com/pagead/aclk?"] > img
+{display: block ! important }
+
+###Ads_BA_VID,
+###adModal,
+###ads[style^="position: absolute; z-index: 30; width: 100%; height"],
+###slide_ad,
+###teaser1[style^="width:autopx;"],
+###teaser2[style^="width:autopx;"],
+###teaser3[style="width: 100%;text-align: center;display: scroll;position:fixed;bottom: 0;margin: 0 auto;z-index: 103;"],
+###teaser3[style^="width:autopx;"],
+##.ad-wrap:not(#google_ads_iframe_checktag),
+##.adcontainer_big,
+##.adrotate_ads_row,
+##.ads_ba_cad,
+##.adthrive-placeholder-video,
+##.banner-asd__title,
+##.box-bannerads,
+##.box-bannerads-leaderboard-fallback,
+##.dfp-ad-lazy,
+##.meteored-ads,
+##.phpbb-ads-center,
+##[class^="adDisplay-module"],
+##[class^="amp-ad-"],
+##[class^="div-gpt-ad"],
+##[data-id^="div-gpt-ad"],
+##[id^="ad-wrap-"],
+##[id^="ad_sky"],
+##[id^="ad_slider"],
+##[id^="div-gpt-ad"],
+##[id^="section-ad-banner"],
+##[name^="google_ads_iframe"],
+##aside[id^="adrotate_widgets-"],
+##div[class^="Adstyled__AdWrapper-"],
+##div[class^="Display_displayAd"],
+##div[class^="kiwi-ad-wrapper"],
+##div[class^="native-ad-"],
+##div[id^="ad-div-"],
+##div[id^="ad-position-"],
+##div[id^="ad_position_"],
+##div[id^="adngin-"],
+##div[id^="adrotate_widgets-"],
+##div[id^="adspot-"],
+##div[id^="crt-"],[style]
+##div[id^="dfp-ad-"],
+##div[id^="div-ads-"],
+##div[id^="div-gpt-"],
+##div[id^="ezoic-pub-ad-"],
+##div[id^="google_dfp_"],
+##div[id^="gpt_ad_"],
+##div[id^="lazyad-"],
+##div[id^="optidigital-adslot"],
+##div[id^="pa_sticky_ad_box_middle_"],
+##div[id^="rc-widget-"],
+##div[id^="st"],[style^="z-index: 999999999;"],
+##div[id^="sticky_ad_"],
+##div[id^="vuukle-ad-"],
+##div[id^="yandex_ad"],
+##img[src^="https://images.purevpnaffiliates.com"],
+##span[id^="ezoic-pub-ad-placeholder-"],
+##a[href*="&maxads="],
+##a[href*=".cfm?domain="],[href*="&fp="],
+##[class^="tile-picker__CitrusBannerContainer-sc-"],
+##ins.adsbygoogle[data-ad-client]
+##ins.adsbygoogle[data-ad-slot]
+###kt_player > div[style$="display: block;"],[style*="inset: 0px;"],
+##.gnt_em_vp_c[data-g-s="vp_dk"],
+##[class^="s2nPlayer"],
+##.video-ads,
+##ytd-promoted-sparkles-web-renderer, ##.ytp-ad-action-interstitial-background-container, ##.ytp-ad-action-interstitial-slot, ##ytd-video-masthead-ad-v3-renderer, ##ytd-action-companion-ad-renderer,
+{         
+	display: none !important
+}
