@@ -46,10 +46,10 @@
     function toggleAdSpeedup() {
         adSpeedUpEnabled = !adSpeedUpEnabled;
         if (adSpeedUpEnabled) {
-            toggleButton.innerText = 'Disable Ad Speedup';
+            toggleButton.innerText = 'On';
             observer.observe(document, observerConfig); // Start observing for ads
         } else {
-            toggleButton.innerText = 'Enable Ad Speedup';
+            toggleButton.innerText = 'Off';
             observer.disconnect(); // Stop observing when ad speedup is off
             resetVideoSpeed(); // Ensure the main video isn't sped up when ad speedup is disabled
         }
@@ -58,8 +58,8 @@
     // Create a toggle button
     const toggleButton = document.createElement('button');
     toggleButton.style.position = 'fixed';
-    toggleButton.style.bottom = '10px';
-    toggleButton.style.right = '10px';
+    toggleButton.style.bottom = '1px';
+    toggleButton.style.right = '1px';
     toggleButton.style.zIndex = '9999';
     toggleButton.style.padding = '10px';
     toggleButton.style.backgroundColor = '#f00';
@@ -67,7 +67,7 @@
     toggleButton.style.border = 'none';
     toggleButton.style.borderRadius = '5px';
     toggleButton.style.cursor = 'pointer';
-    toggleButton.innerText = 'Disable Ad Speedup';
+    toggleButton.innerText = 'On';
     toggleButton.addEventListener('click', toggleAdSpeedup);
     document.body.appendChild(toggleButton);
 
