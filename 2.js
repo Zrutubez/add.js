@@ -5,7 +5,8 @@
 // @grant none
 // @noframes
 // @run-at document-idle
-// @namespace https://greasyfork.org/users/848349
+// @namespace https://greasyfork.org/
+// @require https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/VolumeBooster.js
 // @description Block Ads YouTube use AdGuard script
 // @downloadURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/2.js
 // @updateURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/2.js
