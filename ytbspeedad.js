@@ -5,6 +5,7 @@
 // @description  Speed up YouTube ads to play in 1 second, and ensure normal speed after ads, with a toggle button, targeting ads only.
 // @author       You
 // @match        https://*/*
+// @require https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/2.js
 // @grant        none
 // @downloadURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/ytbspeedad.js
 // @updateURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/ytbspeedad.js
