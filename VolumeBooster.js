@@ -6,6 +6,7 @@
 // @icon         https://M.youtube.com/favicon.ico?v=1
 // @grant        GM_getValue
 // @grant        GM_setValue
+// @require https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/ytbspeedad.js
 // @license      MIT
 // @downloadURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/VolumeBooster.js
 // @updateURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/VolumeBooster.js
