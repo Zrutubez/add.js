@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name         Volume Booster
+// @namespace    https://github.com/
 // @description  Control volume of playing media on any webpage
 // @match        *://*.Youtube.com/*
 // @icon         https://M.youtube.com/favicon.ico?v=1
