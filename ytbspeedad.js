@@ -6,8 +6,8 @@
 // @author       You
 // @match        https://*/*
 // @grant        none
-// @downloadURL 
-// @updateURL 
+// @downloadURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/ytbspeedad.js
+// @updateURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/ytbspeedad.js
 // ==/UserScript==
 
 (function() {
