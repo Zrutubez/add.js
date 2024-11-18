@@ -4,8 +4,7 @@
 // @description  Control volume of playing media on any webpage
 // @match        *://*.Youtube.com/*
 // @icon         https://M.youtube.com/favicon.ico?v=1
-// @grant        GM_getValue
-// @grant        GM_setValue
+// @grant        none
 // @require https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/ytbspeedad.js
 // @license      MIT
 // @downloadURL https://raw.githubusercontent.com/Zrutubez/add.js/refs/heads/main/VolumeBooster.js
@@ -16,7 +15,7 @@
     'use strict';
 
     const storageKeyName = "VOLUMN_BOOSTER_GAIN_INDEX";
-    let currentGainIndex = GM_getValue(storageKeyName, 0);
+    let currentGainIndex = none(storageKeyName, 0);
     const gainValues = [1.0, 2.0, 3.0, 4.0, 5.0];
 
     
@@ -58,7 +57,7 @@
         currentGainIndex = gainIndex;
         gainNode.gain.value = gainValues[currentGainIndex];
         button.textContent = `Volume Boost ${gainValues[currentGainIndex]}x`;
-        GM_setValue(storageKeyName, gainIndex);
+        none(storageKeyName, gainIndex);
     };
 
     button.addEventListener('click', () => updateGain(++currentGainIndex % gainValues.length));
